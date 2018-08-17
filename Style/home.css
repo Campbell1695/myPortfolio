@@ -24,11 +24,11 @@ header
 }
 #containerFooter
 {
-  position: absolute;
   left: 75%;
   line-height: 1;
   margin: auto;
   overflow: hidden;
+  position: absolute;
   text-align: center;
   width: 25%;
 }
