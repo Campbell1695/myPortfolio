@@ -2,15 +2,27 @@
 {
   float: left;
   font-size: 16px;
-  line-height: 2;
-  overflow: hidden;
   height: 400px;
+  line-height: 2;
   margin: auto;
+  overflow: hidden;
   position: absolute;
   text-align: center;
   top: 15%;
   width: 90%;
 }
+#containerFooter
+{
+  left: 75%;
+  line-height: 1;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 700px;
+  width: 25%;
+}
+
 #other_div
 {
   float: left;
@@ -25,30 +37,35 @@
 }
 #short_div
 {
-  position: absolute;
   left: 0%;
-  width: 30%;
+  position: absolute;
   text-align: center;
+  width: 30%;
 }
 #long_div
 {
-  position: absolute;
   left: 35%;
-  width: 30%;
+  position: absolute;
   text-align: center;
+  width: 30%;
 }
 #life_div
 {
-  position: absolute;
   left: 70%;
-  width: 30%;
+  position: absolute;
   text-align: center;
+  width: 30%;
 }
+
 @media screen and (max-width:960px)
 {
   #containerBody
   {
     height: 400px;
+  }
+  #containerFooter
+  {
+    top: 750px;
   }
   #other_div
   {
@@ -88,9 +105,25 @@
     top: 12%;
     height: 650px;
   }
+  #containerFooter
+  {
+    top: 850px;
+  }
   #other_div
   {
     font-size: 14px;
     top: 550px;
+  }
+}
+@media screen and (max-width:320px)
+{
+  #containerFooter
+  {
+    top: 900px;
+    left: 70%;
+  }
+  #other_div
+  {
+    top: 575px;
   }
 }
