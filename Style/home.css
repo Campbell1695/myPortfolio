@@ -1,0 +1,142 @@
+body
+{
+  max-height: 500px;
+}
+header
+{
+  max-height: 500px;
+}
+
+.container
+{
+  max-height: 500px;
+}
+
+#containerBody
+{
+  left: 31%;
+  line-height: 2;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+}
+#containerFooter
+{
+  position: absolute;
+  left: 75%;
+  line-height: 1;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  width: 25%;
+}
+#name
+{
+  font-size: 65px;
+  transform: rotate(-10deg);
+}
+
+@media screen and (max-width:1280px)
+{
+  #containerBody
+  {
+    left: 30%;
+  }
+}
+@media screen and (max-width:1100px)
+{
+  #containerBody
+  {
+    left: 27%;
+  }
+}
+@media screen and (max-width:959px)
+{
+  #containerBody
+  {
+    left: 26%;
+  }
+  #liteTitle
+  {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:768px)
+{
+  #containerBody
+  {
+    left: 20%;
+  }
+}
+@media screen and (max-width:700px)
+{
+  #containerBody
+  {
+    left: 18%;
+  }
+  #containerFooter
+  {
+    top: 70%;
+  }
+  #name
+  {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width:600px)
+{
+  #containerBody
+  {
+    left: 10.5%;
+  }
+  #containerFooter
+  {
+    font-size: 14px;
+    top: 70%;
+  }
+  #name
+  {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width:454px)
+{
+  #containerBody
+  {
+    left: 9%;
+  }
+  #containerFooter
+  {
+    font-size: 12px;
+    left: 70%;
+  }
+  #liteTitle
+  {
+    font-size: 12px;
+  }
+  #name
+  {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width:400px)
+{
+  #containerBody
+  {
+    left: 2%;
+  }
+}
+@media screen and (max-width:350px)
+{
+  #containerFooter
+  {
+    width: 35%;
+    left: 60%;
+  }
+  #containerBody
+  {
+    left: 1%;
+  }
+}

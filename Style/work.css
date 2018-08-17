@@ -1,0 +1,407 @@
+body
+{
+  background-color: #010695;
+  color: #FFE900;
+  font-family: 'Pacifico', cursive;
+  max-height: 1200px;
+}
+header
+{
+  min-height: 70px;
+  padding-top: 20px;
+  max-height: 1200px;
+}
+
+#containerBody
+{
+  float: left;
+  left: 5%;
+  line-height: 2;
+  overflow: hidden;
+  height: 1200px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  width: 80%;
+}
+#containerFooter
+{
+  position: absolute;
+  left: 75%;
+  top: 1200px;
+  line-height: 1;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  width: 25%;
+}
+#first_div
+{
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+}
+#second_div
+{
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  top: 4.5%;
+  left: 50%;
+  width: 50%;
+  height: 300px;
+}
+#third_div
+{
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  height: 500px;
+}
+#one_li
+{
+  left: 15%;
+  position: absolute;
+  top: 25%;
+}
+#two_li
+{
+  left: 60%;
+  position: absolute;
+  top: 25%;
+}
+#three_li
+{
+  left: 15%;
+  position: absolute;
+  top: 60%;
+}
+#four_li
+{
+  left: 60%;
+  position: absolute;
+  top: 60%;
+}
+#five_li
+{
+  left: 15%;
+  position: absolute;
+  top: 95%;
+}
+#six_li
+{
+  left: 60%;
+  position: absolute;
+  top: 95%;
+}
+#self_img
+{
+  visibility: hidden;
+}
+#team_img
+{
+  visibility: hidden;
+}
+#time_img
+{
+  visibility: hidden;
+}
+#finesse_img
+{
+  visibility: hidden;
+}
+#customer_img
+{
+  visibility: hidden;
+}
+#student_img
+{
+  visibility: hidden;
+}
+#cuphead_img
+{
+  height: 45%;
+  width: 45%;
+}
+#ipta_img
+{
+  height: 45%;
+  width: 45%;
+}
+#doc_img
+{
+  height: 45%;
+  width: 45%;
+}
+#skyrim_img
+{
+  height: 45%;
+  width: 45%;
+}
+@media screen and (max-width:960px)
+{
+  #first_div
+  {
+    width: 55%;
+  }
+  #second_div
+  {
+    font-size: 14px;
+    left: 55%;
+    width: 45%;
+  }
+  #one_li
+  {
+    left: 5%;
+  }
+  #two_li
+  {
+    left: 55%;
+  }
+  #three_li
+  {
+    left: 5%;
+  }
+  #four_li
+  {
+    left: 55%;
+  }
+  #five_li
+  {
+    left: 5%;
+  }
+  #six_li
+  {
+    left: 50%;
+  }
+}
+@media screen and (max-width:768px)
+{
+  #containerBody
+  {
+    top: 15%;
+    width: 92%;
+  }
+  #first_div
+  {
+    width: 70%;
+  }
+  #second_div
+  {
+    left: 70%;
+    width: 30%;
+  }
+  #self_img
+  {
+    height: 80px;
+    left: 1%;
+    position: absolute;
+    top: 25%;
+    visibility: visible;
+    width: 80px;
+  }
+  #time_img
+  {
+    height: 80px;
+    left: 50%;
+    position: absolute;
+    top: 25%;
+    visibility: visible;
+    width: 80px;
+  }
+  #team_img
+  {
+    height: 80px;
+    left: 1%;
+    position: absolute;
+    top: 60%;
+    visibility: visible;
+    width: 80px;
+  }
+  #finesse_img
+  {
+    height: 80px;
+    left: 50%;
+    position: absolute;
+    top: 60%;
+    visibility: visible;
+    width: 80px;
+  }
+  #customer_img
+  {
+    height: 80px;
+    left: 1%;
+    position: absolute;
+    top: 95%;
+    visibility: visible;
+    width: 80px;
+  }
+  #student_img
+  {
+    height: 80px;
+    left: 50%;
+    position: absolute;
+    top: 95%;
+    visibility: visible;
+    width: 80px;
+  }
+  #one_li
+  {
+    visibility: hidden;
+  }
+  #two_li
+  {
+    visibility: hidden;
+  }
+  #three_li
+  {
+    visibility: hidden;
+  }
+  #four_li
+  {
+    visibility: hidden;
+  }
+  #five_li
+  {
+    visibility: hidden;
+  }
+  #six_li
+  {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width:600px)
+{
+  header
+  {
+    max-height: 1000px;
+  }
+  #cuphead_img
+  {
+    height: 25%;
+    width: 75%;
+  }
+  #ipta_img
+  {
+    height: 25%;
+    width: 75%;
+  }
+  #doc_img
+  {
+    height: 25%;
+    width: 75%;
+  }
+  #skyrim_img
+  {
+    height: 25%;
+    width: 75%;
+  }
+  #third_div
+  {
+    top: 800px;
+    height: 600px;
+  }
+  #containerBody
+  {
+    overflow: visible;
+    width: 90%;
+  }
+  #containerFooter
+  {
+    font-size: 14px;
+    top: 1600px;
+  }
+  #first_div
+  {
+    margin: auto;
+    width: 100%;
+  }
+  #second_div
+  {
+    font-size: 14px;
+    top: 500px;
+    left: 0%;
+    width: 100%;
+    height: 200px;
+  }
+  #self_img
+  {
+    height: 90px;
+    left: 5%;
+    top: 15%;
+    width: 90px;
+  }
+  #time_img
+  {
+    height: 90px;
+    left: 60%;
+    top: 15%;
+    width: 90px;
+  }
+  #team_img
+  {
+    height: 90px;
+    left: 5%;
+    top: 55%;
+    width: 90px;
+  }
+  #finesse_img
+  {
+    height: 90px;
+    left: 60%;
+    top: 60%;
+    width: 90px;
+  }
+  #customer_img
+  {
+    height: 90px;
+    left: 5%;
+    top: 95%;
+    width: 90px;
+  }
+  #student_img
+  {
+    height: 90px;
+    left: 60%;
+    top: 95%;
+    width: 90px;
+  }
+}
+@media screen and (max-width:480px)
+{
+  #containerFooter
+  {
+    left: 50%;
+    top: 1550px;
+    width: 50%;
+  }
+  #containerBody
+  {
+    top: 10%;
+    width: 92%;
+  }
+  #cuphead_img
+  {
+    height: 25%;
+    width: 95%;
+  }
+  #ipta_img
+  {
+    height: 25%;
+    width: 95%;
+  }
+  #doc_img
+  {
+    height: 25%;
+    width: 95%;
+  }
+  #skyrim_img
+  {
+    height: 25%;
+    width: 95%;
+  }
+}
